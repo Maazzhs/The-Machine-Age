@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Visionary — The Machine Age</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+</head>
+
+<body data-page="visionary" class="page-fade">
+<!-- Header -->
+<header class="header">
+    <div class="header-inner">
+        <a href="index.html" class="brand logo-accent" aria-label="The Machine Age Home">
+  <span class="logo-text">
+    THE<br>
+    <span>MACHINE AGE</span>
+  </span>
+        </a>
+
+        <div class="theme-toggle">
+            <span class="theme-label" id="themeLabel">Switch to dark mode</span>
+            <label class="switch">
+                <input type="checkbox" id="themeToggle">
+                <span class="slider"></span>
+            </label>
+        </div>
+        <button class="hamburger" id="hamburgerBtn">
+            <span class="hamburger-bar"></span>
+            <span class="hamburger-bar"></span>
+            <span class="hamburger-bar"></span>
+        </button>
+        <nav class="nav" id="mainNav">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="visionary.html">The Visionary</a>
+            <a class="nav-link" href="machines.html">The Machines</a>
+            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link" href="references.html">References</a>
+        </nav>
+        <a class="skip-link" href="#main">Skip to main content</a>
+    </div>
+</header>
+
+
+<main class="page" id="main">
+    <!-- Hero section -->
+    <section class="hero hero-inner-page">
+        <div class="wrap reveal">
+            <h1 class="hero-title small">The Visionary: Charles Babbage’s Story</h1>
+        </div>
+    </section>
+
+    <!-- Main content and aside -->
+    <section class="page-section">
+        <div class="wrap">
+            <div class="grid-2 reveal">
+                <div class="big-box lift">
+                    <h2 class="box-heading">Who was Charles Babbage?</h2>
+                    <p class="body-text">
+                        Charles Babbage (1791–1871) was a British mathematician, philosopher, inventor,
+                        and mechanical engineer. He lived during the Industrial Revolution, a period when
+                        machines were transforming manufacturing, transport, and society. Babbage believed
+                        that the same precision used in industry could be applied to mathematics—reducing
+                        human error and improving reliability.
+                    </p>
+                    <p class="body-text">
+                        At the time, important industries relied on large printed mathematical tables
+                        (for navigation, engineering, astronomy, and finance). These tables often contained
+                        mistakes because they were calculated manually by teams of “human computers.”
+                        Babbage saw these errors as dangerous and wasteful, especially when lives and money
+                        depended on accurate calculations.
+                    </p>
+                    <p class="body-text">
+                        His response was bold: if repetitive factory work could be mechanised, then repetitive
+                        calculation could be mechanised too. This idea led to his designs for mechanical
+                        calculating machines—most famously the <strong>Difference Engine</strong> and the
+                        <strong>Analytical Engine</strong>. Even though his full designs were not completed
+                        in his lifetime, the concepts behind them strongly resemble modern computing.
+                    </p>
+                    <h2 class="box-heading" style="margin-top:18px;">Why he matters to Computer Science</h2>
+                    <p class="body-text">
+                        Babbage’s most important contribution was not just building machinery—it was the
+                        architecture of an information-processing system. He described components that map
+                        surprisingly well to modern computers: a place to store numbers (memory), a place to
+                        operate on them (processor), and a method for controlling sequences of operations
+                        (control flow). These core principles sit underneath everything from laptops to phones.
+                    </p>
+                    <p class="body-text">
+                        His work also shows how computer science is not only about electronics. The “computer”
+                        as a concept is bigger than the materials used to build it. Babbage’s machines were
+                        mechanical, yet the logic behind them anticipates digital systems.
+                    </p>
+                </div>
+                <!-- side with image and key ideas -->
+                <aside class="side-box lift">
+                    <h2 class="box-heading">Key ideas (in simple terms)</h2>
+                    <figure class="machine-figure" style="max-width:320px;margin:0 0 1rem;">
+                        <img src="imgs/charles-babbage.webp" alt="Portrait of Charles Babbage" style="width:100%;height:auto;display:block;border-radius:4px;" />
+                        <figcaption class="small body-text" style="text-align:center;margin-top:0.5rem;">Charles Babbage (1791–1871)</figcaption>
+                    </figure>
+                    <ul class="bullet-list">
+                        <li><strong>Automation:</strong> repeatable maths done by a machine, not a person.</li>
+                        <li><strong>Precision engineering:</strong> accuracy depends on reliable parts.</li>
+                        <li><strong>Programmability:</strong> instructions can be changed to perform different tasks.</li>
+                        <li><strong>Separation of roles:</strong> “store” (memory) vs “mill” (processor).</li>
+                        <li><strong>Inputs & outputs:</strong> data goes in, results come out.</li>
+                    </ul>
+                    <div class="side-note">
+                        <p class="body-text small">
+                            <strong>Ada Lovelace</strong> worked with Babbage and wrote detailed notes on the Analytical Engine.
+                            She described how the machine could follow a series of instructions—an early view of programming.
+                            For that reason, she is often credited with writing the first algorithm intended for a machine.
+                        </p>
+                    </div>
+                </aside>
+            </div>
+            <!-- Quiz panel -->
+            <section class="quiz-panel reveal lift" data-quiz-panel>
+                <div class="quiz-panel-top">
+                    <div class="quiz-title">Quiz and more info</div>
+                    <button class="btn btn-outline quiz-toggle" type="button" data-quiz-toggle>
+                        Open Quiz
+                    </button>
+                </div>
+                <div class="quiz-content" data-quiz-content>
+                    <div class="quiz-split">
+                        <div class="more-info">
+                            <h3 class="mini-heading">Extra information</h3>
+                            <p class="body-text">
+                                Babbage’s projects also show the importance of <strong>funding, project management, and feasibility</strong>.
+                                His plans were ambitious and expensive; disagreements with engineers and changing government support
+                                slowed progress. This is a useful lesson for modern computing projects—technical brilliance still needs
+                                planning, communication, budgeting, and realistic implementation timelines.
+                            </p>
+                            <p class="body-text">
+                                In 1991, the Science Museum in London built a Difference Engine based on Babbage’s original designs
+                                and confirmed that the concept worked when manufactured with sufficient precision. This helped prove
+                                that Babbage’s engineering ideas were valid—he was simply limited by the tools and circumstances of his time.
+                            </p>
+                        </div>
+                        <div class="quiz-box" data-quiz="visionary">
+                            <p class="quiz-question"></p>
+                            <div class="quiz-answers"></div>
+                            <p class="quiz-feedback"></p>
+                            <button class="btn btn-outline small quiz-reset" type="button">Restart Quiz</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="footer-inner">Est 2025 The Machine Age</div>
+</footer>
+<script src="scripts/script.js"></script>
+</body>
+</html>

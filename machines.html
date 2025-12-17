@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Machines — The Machine Age</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+</head>
+<body data-page="machines" class="page-fade">
+<!-- Header -->
+<header class="header">
+    <div class="header-inner">
+        <a href="index.html" class="brand logo-accent" aria-label="The Machine Age Home">
+  <span class="logo-text">
+    THE<br>
+    <span>MACHINE AGE</span>
+  </span>
+        </a>
+        <div class="theme-toggle">
+            <span class="theme-label" id="themeLabel">Switch to dark mode</span>
+            <label class="switch">
+                <input type="checkbox" id="themeToggle">
+                <span class="slider"></span>
+            </label>
+        </div>
+        <button class="hamburger" id="hamburgerBtn">
+            <span class="hamburger-bar"></span>
+            <span class="hamburger-bar"></span>
+            <span class="hamburger-bar"></span>
+        </button>
+        <nav class="nav" id="mainNav">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="visionary.html">The Visionary</a>
+            <a class="nav-link" href="machines.html">The Machines</a>
+            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link" href="references.html">References</a>
+        </nav>
+        <a class="skip-link" href="#main">Skip to main content</a>
+    </div>
+</header>
+<main class="page" id="main">
+    <!-- Hero section -->
+    <section class="hero hero-inner-page">
+        <div class="wrap reveal">
+            <h1 class="hero-title small">Difference &amp; Analytical Engines</h1>
+        </div>
+    </section>
+    <!-- Main content and aside -->
+    <section class="page-section">
+        <div class="wrap">
+            <div class="grid-2 reveal">
+                <div class="big-box lift">
+                    <h2 class="box-heading">The Difference Engine</h2>
+                    <p class="body-text">
+                        The <strong>Difference Engine</strong> was designed to automatically compute values of polynomial functions.
+                        It relied on the method of <strong>finite differences</strong>, which allows certain types of calculations to be
+                        performed using only addition and subtraction—perfect for a machine built from gears.
+                    </p>
+                    <p class="body-text">
+                        Its main goal was to produce accurate printed mathematical tables. This would reduce mistakes made by people
+                        during calculation and printing. In modern terms, it was an early attempt at automation to improve reliability
+                        and safety in real-world systems (navigation tables, engineering data, etc.).
+                    </p>
+                    <h2 class="box-heading" style="margin-top:18px;">The Analytical Engine</h2>
+                    <p class="body-text">
+                        The <strong>Analytical Engine</strong> was a much more ambitious idea. Instead of being limited to one type of task,
+                        it was designed as a general-purpose computing machine. It included a “mill” (like a CPU) to process operations,
+                        and a “store” (like RAM) to hold numbers and intermediate results.
+                    </p>
+                    <p class="body-text">
+                        Most importantly, the Analytical Engine could be controlled using punched cards—similar to the cards used in
+                        textile machines. That means the “program” could be changed without rebuilding the machine. This is the key shift
+                        from a calculator to a computer.
+                    </p>
+                    <h2 class="box-heading" style="margin-top:18px;">Difference Engine vs Analytical Engine</h2>
+                    <div class="table-wrap" role="region" aria-label="Comparison table: Difference Engine vs Analytical Engine" tabindex="0">
+                        <table class="info-table">
+                            <caption>Comparison of Babbage’s main machine designs</caption>
+                            <thead>
+                            <tr>
+                                <th scope="col">Feature</th>
+                                <th scope="col">Difference Engine</th>
+                                <th scope="col">Analytical Engine</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <th scope="row">Purpose</th>
+                                <td>Automatic calculation of mathematical tables</td>
+                                <td>General-purpose programmable computation</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Programmable?</th>
+                                <td>No (task-specific)</td>
+                                <td>Yes (via punched cards)</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Modern equivalent</th>
+                                <td>Special-purpose calculator</td>
+                                <td>Conceptually similar to a modern computer</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Core components</th>
+                                <td>Mechanical arithmetic mechanisms</td>
+                                <td>“Store” (memory) and “Mill” (processor)</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <h2 class="box-heading" style="margin-top:18px;">How this connects to modern computers</h2>
+                    <p class="body-text">
+                        Babbage’s designs include ideas that are still fundamental today:
+                        <strong>input → processing → output</strong>, memory storage, and step-by-step instructions.
+                        The Analytical Engine also suggested concepts similar to loops and conditional decisions, which are essential
+                        in programming.
+                    </p>
+                </div>
+                <!-- side with image and features -->
+                <aside class="side-box lift">
+                    <h2 class="box-heading">Machine features</h2>
+                    <figure class="machine-figure" style="max-width:320px;margin:0 0 1rem;">
+                        <img src="imgs/Babbages_Analytical_Engine.webp" alt="Babbage's Analytical Engine" style="width:100%;height:auto;display:block;border-radius:4px;" />
+                        <figcaption class="small body-text" style="text-align:center;margin-top:0.5rem;">Babbage’s Analytical Engine (illustration)</figcaption>
+                    </figure>
+                    <ul class="bullet-list">
+                        <li><strong>Gears & cranks:</strong> represent numbers and operations mechanically.</li>
+                        <li><strong>Punched cards:</strong> provide instructions (like early code input).</li>
+                        <li><strong>Store:</strong> holds values (memory).</li>
+                        <li><strong>Mill:</strong> performs calculations (processor).</li>
+                        <li><strong>Output:</strong> printing results (early output device).</li>
+                    </ul>
+                    <div class="side-note">
+                        <p class="body-text small">
+                            In the 20th century, punched cards became a major input method for computers.
+                            While technology changed from brass to electronics, the idea of feeding instructions
+                            and data into a system stayed the same.
+                        </p>
+                    </div>
+                </aside>
+            </div>
+            <!-- Quiz panel -->
+            <section class="quiz-panel reveal lift" data-quiz-panel>
+                <div class="quiz-panel-top">
+                    <div class="quiz-title">Quiz and more info</div>
+                    <button class="btn btn-outline quiz-toggle" type="button" data-quiz-toggle>
+                        Open Quiz
+                    </button>
+                </div>
+                <div class="quiz-content" data-quiz-content>
+                    <div class="quiz-split">
+                        <div class="more-info">
+                            <h3 class="mini-heading">Extra information</h3>
+                            <p class="body-text">
+                                The Difference Engine is an example of a <strong>special-purpose machine</strong>—built to do one type of task extremely well.
+                                The Analytical Engine is closer to a <strong>general-purpose computer</strong>—a machine that can perform many tasks depending
+                                on the program.
+                            </p>
+                            <p class="body-text">
+                            </p>
+                        </div>
+                        <div class="quiz-box" data-quiz="machines">
+                            <p class="quiz-question"></p>
+                            <div class="quiz-answers"></div>
+                            <p class="quiz-feedback"></p>
+                            <button class="btn btn-outline small quiz-reset" type="button">Restart Quiz</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="footer-inner">Est 2025 The Machine Age</div>
+</footer>
+<script src="scripts/script.js"></script>
+</body>
+</html>
